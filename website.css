@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-file{
+    height: 100px;
+    width: 100%;
+    
+     position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    
+}
+.header-container{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color:white ;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+   background-attachment:fixed;
+ 
+    
+}
+.institute-name{
+    height: 90%;
+    width: 500px;
+    margin: 2px;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+    
+}
+.social-links {
+    height: 80%;
+    width: 400px;
+    background-color:;
+    margin-left: 350px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.social-links ul {
+    display: flex;
+   margin-left: 10px;
+}
+.social-links ul li{
+    margin-left: 20px;
+    
+}
+.nav-container{
+ height: 50px;
+ width: 100%;
+ margin-top: 0px;
+ display: flex;
+ background-color: black;
+ color: white;
+
+
+}
+.nav-bar{
+    height: 40px;
+    width: 60%;
+}
+.nav-bar ul{
+     display: flex;
+     align-items: center;
+     margin-left: 0px;
+
+}
+.nav-bar ul li{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.butons{
+
+      height: 40px;
+      width: 40%;
+   
+}
+.butons ul{
+   display: flex;
+    justify-content: center;
+   align-items: center;
+  margin-top: 3px;
+
+}
+.butons ul li{
+    background-color: green;
+    margin-left: 30px;
+    padding: 8px;
+}
+.slide-container{
+    z-index: 1;
+    height: 500px;
+    margin-top: 1px;
+    width: 100%;
+    background-color: green;
+
+   
+}
+img{
+   height:500px
+    
+}
+.card-container{
+    height: 850px;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px;
+    
+}
+.card{
+
+   height: 350px;
+   width: 300px;
+   margin-top: 40px;
+   margin-left: 50px;
+   padding-left: 20px;
+   
+   border-radius: 10px;
+   box-shadow: 1PX 1PX 9PX 5PX black;
+}
+.owl-crowsel{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+    
+}
+.location-container{
+    height: 300px;
+    width: 100%;
+    background-color: azure;
+}
+.notice-container{
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 10px;
+   
+    
+    
+}
+.notice-bar {
+    background-color: red;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.notices{
+    display: flex;
+    height: 200px;
+    
+}
+.notices span{
+    height: 2px;
+    
+    background-color: yellow;
+   
+    border-radius: 100px;
+    
+}
+span{
+    animation-name: color-change;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes color-change {
+    
+    
+    50%{
+        color: blue;
+    }
+   
+    100%{
+        color: red;
+        
+    }
+    
+}
+
+
+
+
+.footer-container{
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(40, 30, 30, 0.754);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.footer{
+    height: 350px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 20px;
+   color: white;
+}
+
+.footer-head{
+    height: 40px;
+    margin-top: 20px;
+    border: solid  black;
+    border-width: 0px 0px 2px 0px;
+}
+.social-link ul {
+    display: flex;
+   margin-left: 10px;
+}
+.social-link ul li{
+    margin-left: 20px;
+}
